@@ -1,0 +1,46 @@
+<ion-content class="background">
+  <ion-img width="200" height="150" src="/assets/imgs/CliPicker.JPG"></ion-img>
+  <ion-card>
+    <ion-card-header>
+      LOGIN
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-lines>
+        <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="Password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <p>Forgot password?<a> Get here</a></p>
+      </ion-item>
+      <button ion-button color="secondary" block>LOGIN</button>
+        <button ion-button color="light" block (click)="openLoginPage()">SIGN-UP</button>
+        <b>OR</b>
+        <button ion-button color="primary" icon-left block >
+        <ion-icon name="logo-facebook"></ion-icon>
+        <div>Login with Facebook</div>
+        </button>
+        <button ion-button color="danger" icon-left block >
+        <ion-icon name="logo-google"></ion-icon>
+        <div>Login with Google</div>
+        </button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+<!--      <b>OR</b>
+      <button ion-button color="danger" block outline>SIGN-UP</button>
+      <button ion-button color="primary" icon-left block >
+      <ion-icon name="logo-facebook"></ion-icon>
+      <div>Login with Facebook</div>
+      </button>
+      <button ion-button color="danger" icon-left block >
+      <ion-icon name="logo-google"></ion-icon>
+      <div>Login with Google</div>
+      </button> -->
