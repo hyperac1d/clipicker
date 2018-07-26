@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FourthPage } from '../fourth/fourth';
+import { SeventhPage } from '../seventh/seventh'; 
 
 /**
- * Generated class for the ThirdPage page.
+ * Generated class for the SixthPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +11,20 @@ import { FourthPage } from '../fourth/fourth';
 
 @IonicPage()
 @Component({
-  selector: 'page-third',
-  templateUrl: 'third.html',
+  selector: 'page-sixth',
+  templateUrl: 'sixth.html',
 })
-export class ThirdPage {
+export class SixthPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ThirdPage');
+    console.log('ionViewDidLoad SixthPage');
   }
 
-  openFourthPage(){
-  	this.navCtrl.push(FourthPage);
+  openSeventhPage(){
+  	this.navCtrl.push(SeventhPage);
   }
 
 }

@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Clipicker!</ion-title>
+  </ion-navbar>
+</ion-header>
+  
+<ion-content class="background" padding>
+<ion-img width="200" height="150" src="/assets/imgs/CliPicker.JPG"></ion-img>
+
+
+<ion-card>
+<ion-list no-lines>
+	<br>
+	<b>Who will be the patient?</b><br><br>
+
+		<button ion-button color="primary" block>ME</button><br>
+
+		<b>Others, input information:</b><br>
+        <ion-item>
+        <ion-label floating>Enter name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Enter Age</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Enter Gender</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <br>
+      <button ion-button color="primary" block (click)="openSeventhPage()">SUBMIT</button>
+        
+      </ion-list>
+</ion-card>
+</ion-content>

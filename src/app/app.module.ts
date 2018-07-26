@@ -10,6 +10,11 @@ import { LoginPage } from '../pages/login/login';
 import { FirstPage } from '../pages/first/first';
 import { SecondPage } from '../pages/second/second';
 import { ThirdPage } from '../pages/third/third';
+import { FourthPage } from '../pages/fourth/fourth';
+import { FifthPage } from '../pages/fifth/fifth';
+import { SixthPage } from '../pages/sixth/sixth';
+import { SeventhPage } from '../pages/seventh/seventh';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +23,11 @@ import { ThirdPage } from '../pages/third/third';
     LoginPage,
     FirstPage,
     SecondPage,
-    ThirdPage
+    ThirdPage,
+    FourthPage,
+    FifthPage,
+    SixthPage,
+    SeventhPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,11 @@ import { ThirdPage } from '../pages/third/third';
     LoginPage,
     FirstPage,
     SecondPage,
-    ThirdPage
+    ThirdPage,
+    FourthPage,
+    FifthPage,
+    SixthPage,
+    SeventhPage
   ],
   providers: [
     StatusBar,
